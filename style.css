@@ -1,0 +1,98 @@
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.cont {
+    width: 33%;
+    border-radius: 15px;
+    border: 2px solid blue;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.between {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    all: unset;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #004DFF;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+form {
+    align-items: end;
+    display: flex;
+    gap: 20px;
+    height: 100px;
+}
+
+input {
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid #c4c4c4;
+}
+
+.btw {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 0%;
+}
+
+.images {
+    display: flex;
+    gap: 10px;
+}
+
+.images img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.modal {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: #004DFF;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal button {
+    margin-top: 1%;
+    background-color: blueviolet;
+}
